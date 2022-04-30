@@ -1,8 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
 <?php
-require 'vendor/autoload.php';
+echo "Hello World!";
+?> 
 
-use Carbon\Carbon;
- 
-$date = Carbon::now();
-
-echo $date->toDayDateTimeString();
+</body>
+</html>
